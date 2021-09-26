@@ -1,0 +1,643 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Great Vibes", cursive;
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.804);
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background: rgb(97, 167, 52);
+}
+.flex {
+  display: flex;
+}
+.justify {
+  justify-content: space-between;
+}
+.aling {
+  align-items: center;
+}
+#topheader {
+  background: rgb(14, 78, 143);
+  border-bottom: 3px solid white;
+}
+.container {
+  width: 1170px;
+  margin: auto;
+}
+.toplogo img {
+  width: 220px;
+  padding-top: 8px;
+}
+.menulist {
+  list-style: none;
+}
+.menulist li {
+  float: left;
+}
+.menulist li:last-child {
+  padding-right: 0px;
+}
+.menulist li a {
+  font-size: 18px;
+  padding: 31px 40px;
+  display: block;
+  font-weight: 700;
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+}
+.menulist li a:hover {
+  background: rgb(8, 111, 214);
+  border-radius: 8px;
+}
+#slider {
+  background: linear-gradient(rgb(45, 125, 182), rgb(39, 114, 172)) center
+      center / cover no-repeat,
+    url("slider.png");
+  width: 100%;
+  height: 670px;
+  clip-path: polygon(100% 0%, 100% 70%, 50% 100%, 0% 70%, 0% 0%);
+}
+.slicerDec {
+  width: 500px;
+  margin: auto;
+  padding-top: 148px;
+}
+.slicerDec h1 {
+  color: rgb(255, 90, 0);
+  font-size: 95px;
+}
+.slicerDercc b {
+  position: relative;
+}
+.slicerDercc b {
+  position: absolute;
+  content: "FRESH FOOD";
+  top: 232px;
+  width: 207px;
+  font-size: 31px;
+  left: 43%;
+  color: rgb(113, 204, 54);
+}
+.sliderpara p {
+  font-style: italic;
+  width: 446px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.73);
+  margin-bottom: 54px;
+  font-size: 19px;
+}
+#sliderbtn {
+  letter-spacing: 1px;
+  padding: 19px 50px;
+  color: white;
+  border-radius: 8px;
+  background: rgb(97, 167, 52);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+#sliderbtn:hover {
+  background: rgb(67, 145, 19);
+  color: cornsilk;
+}
+#It_work {
+  background: rgb(97, 167, 52);
+}
+.workit {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  width: 1029px;
+  margin: auto;
+}
+.workit h1 {
+  text-align: center;
+  font-family: arial;
+  padding-bottom: 15px;
+  color: white;
+  font-size: 40px;
+}
+.workit i {
+  color: white;
+  font-size: 17px;
+  text-align: center;
+  display: block;
+  margin-bottom: 40px;
+  line-height: 25px;
+}
+.workWrapper {
+  overflow: hidden;
+  columns: 300px 3;
+}
+.singleWork {
+  width: 372px;
+  float: left;
+  margin-bottom: -5px;
+  overflow: hidden;
+}
+.singleWork img {
+  width: 100%;
+  height: 300px;
+  transition: all 0.3s ease 0s;
+}
+.singleWork img:hover {
+  transform: scale(1.2);
+}
+.singleDec {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.87);
+  height: 253px;
+  margin-bottom: 90px;
+}
+.singleDec a {
+  color: rgb(97, 167, 52);
+  margin-bottom: 5px;
+  display: block;
+  font-size: 58px;
+  transition: all 0.3s ease 0s;
+}
+.singleDec a:hover {
+  color: rgb(214, 41, 10);
+}
+.singleDec h2 {
+  font-family: arial;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 29px;
+  color: rgba(0, 0, 0, 0.63);
+}
+.singleDec em {
+  display: block;
+  margin-bottom: 25px;
+  line-height: 27px;
+  text-align: justify;
+  padding: 10px;
+}
+#organic {
+  background: url("main.png") center center / cover no-repeat;
+  width: 100%;
+  height: 550px;
+  position: relative;
+}
+.organicDec {
+  position: absolute;
+  width: 518px;
+  box-sizing: border-box;
+  top: 30%;
+  left: 50%;
+}
+.organicDec b::after {
+  font-size: 31px;
+  content: "ORGANIC FARN";
+  width: 277px;
+  color: rgb(102, 204, 54);
+  position: absolute;
+  top: -17px;
+  left: 199px;
+}
+.organicDec b {
+  position: relative;
+}
+.organicDec h1 {
+  font-size: 72px;
+  color: rgb(255, 90, 0);
+  font-weight: unset;
+}
+.organicDec p {
+  margin-bottom: 36px;
+  color: rgba(0, 0, 0, 0.64);
+  letter-spacing: 1px;
+  line-height: 27px;
+}
+.organicDec h1 {
+  font-size: 72px;
+  color: rgb(255, 90, 0);
+  font-weight: unset;
+}
+.organicDec p {
+  margin-bottom: 36px;
+  color: rgba(0, 0, 0, 0.64);
+  letter-spacing: 1px;
+  line-height: 27px;
+}
+#organicbtn {
+  transition: all 0.3s ease 0s;
+  border-radius: 8px;
+  font-size: 17px;
+  color: white;
+  border: none;
+  padding: 17px 43px;
+  cursor: pointer;
+  background: rgb(47, 119, 6);
+}
+#organicbtn:hover {
+  background: rgb(255, 97, 11);
+}
+.FarmWrapper {
+  overflow: hidden;
+}
+.singleFarm {
+  margin-right: 24px;
+  padding: 24px;
+  height: 138px;
+  width: 272px;
+  float: left;
+  background: white;
+}
+.singleFarm:last-child {
+  margin-right: 0px;
+}
+.singleFarm h2 {
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: rgb(97, 167, 52);
+  font-family: arial;
+  font-size: 23px;
+}
+.singleFarm p {
+  line-height: 29px;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.6);
+}
+#ourFarnlogo {
+  background: rgb(242, 242, 242);
+}
+.lofgosWrapper {
+  overflow: hidden;
+}
+.sisngleslogos {
+  margin-bottom: 68px;
+  margin-right: 25.3px;
+  width: 271.7px;
+  float: left;
+  overflow: hidden;
+}
+.sisngleslogos img {
+  width: 100%;
+  height: 204px;
+  transition: all 0.3s ease 0s;
+}
+.sisngleslogos img:hover {
+  transform: scaleX(1.2);
+}
+.sisngleslogos:last-child {
+  margin-right: 0px;
+}
+.ourcowWrapper {
+  overflow: hidden;
+}
+.cowS {
+  width: 50%;
+  float: left;
+}
+.cowphoto {
+  background: url("COW.png") center center / cover no-repeat;
+  width: 100%;
+  height: 550px;
+}
+.cowtitle {
+  width: 445px;
+  margin: 100px auto auto;
+}
+.cowtitle b {
+  position: relative;
+}
+.cowtitle b::after {
+  font-size: 25px;
+  right: -402px;
+  color: rgb(97, 167, 52);
+  top: -25px;
+  position: absolute;
+  content: "HAPPY FARMING";
+  width: 236px;
+}
+.ss {
+  height: 550px;
+  background: white;
+}
+.cowtitle h1 {
+  color: rgb(255, 90, 0);
+  font-size: 41px;
+}
+.cowtitle p {
+  margin-bottom: 30px;
+  font-style: italic;
+  letter-spacing: 1px;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 29px;
+}
+#cowbtn {
+  transition: all 0.3s ease 0s;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 8px;
+  background: rgb(255, 90, 82);
+  color: white;
+  border: none;
+  padding: 16px 33px;
+  cursor: pointer;
+}
+#cowbtn:hover {
+  background: rgb(97, 167, 52);
+  color: white;
+}
+.foodimage {
+  background: url("foods1.png");
+  clip-path: circle(50% at 50% 50%);
+  width: 240px;
+  height: 240px;
+  margin: auto;
+  transition: 1.3s;
+}
+.foodimag {
+  background: url("foods2.png");
+  clip-path: circle(50% at 50% 50%);
+  width: 240px;
+  height: 240px;
+  margin: auto;
+  transition: 1.3s;
+}
+.foodima {
+  background: url("foods3.png");
+  clip-path: circle(50% at 50% 50%);
+  width: 240px;
+  height: 240px;
+  transition: 1.3s;
+  margin: auto;
+}
+.foodWrapperse {
+  overflow: hidden;
+}
+.singleboxfood {
+  margin-top: 62px;
+  padding: 40px;
+  background: white;
+  width: 369px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 86px;
+}
+.singleboxfood:last-child {
+  margin-right: 0px !important;
+}
+#ourFood {
+  background: rgb(227, 239, 251);
+}
+.cowdec h3 {
+  padding-top: 10px;
+  height: 57px;
+  margin: auto;
+  color: rgb(255, 90, 0);
+  font-size: 27px;
+  width: 152px;
+}
+.cowsstitle p {
+  line-height: 26px;
+  letter-spacing: 1px;
+  font-size: 19px;
+  text-align: center;
+}
+.tomatoimage {
+  background: url("tomato.png") center center / cover no-repeat;
+  height: 570px;
+  width: 45%;
+  float: left;
+}
+.tomatoWrapper {
+  overflow: hidden;
+}
+.tomatoDce {
+  width: 55%;
+  height: 570px;
+  background: white;
+  float: left;
+}
+.tomatotitle {
+  width: 600px;
+  margin: 136px auto auto;
+}
+.tomatotitle h2 {
+  font-size: 26px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: rgb(97, 167, 52);
+}
+.tomatotitle h1 {
+  color: rgba(255, 99, 71, 0.79);
+  font-size: 59px;
+}
+.tomatotitle p {
+  margin-bottom: 13px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-align: justify;
+  font-style: italic;
+  line-height: 28px;
+}
+#tomabtn {
+  transition: all 0.3s ease 0s;
+  border-radius: 7px;
+  font-size: 16px;
+  color: white;
+  background: rgb(97, 167, 52);
+  border: none;
+  padding: 16px 20px;
+  width: 160px;
+  cursor: pointer;
+  margin-top: 28px;
+}
+#tomabtn:hover {
+  background: rgb(49, 118, 4);
+}
+#mores{
+  background:#EBF8F9;
+}
+.moresWrapper {
+  overflow: hidden;
+}
+
+.singlemore {
+  margin-top: 80px;
+  width: 358px;
+  float: left;
+  margin-right: 30px;
+  overflow: hidden;
+}
+
+.singlemore img {
+  width: 100%;
+  height: 376px;
+  overflow: hidden;
+}
+
+.moretitle h1 {
+  width: 300px;
+  font-size: 40px;
+  margin: auto;
+  color: #e94326f7;
+}
+
+.moretitle p {
+  width: 287px;
+  margin: auto;
+  font-size: 19px;
+  line-height: 29px;
+  margin-top: 10px;
+}
+
+.moretitle {
+  margin-bottom: 100px;
+}
+#Subcribe {
+  position: relative;
+  margin-bottom: -188px;
+}
+
+
+
+
+
+
+
+#TFooter {
+  background: rgb(14, 78, 143); 
+  
+}
+.FooterWrapper {
+  overflow: hidden;
+  padding-top: 200px;
+}
+.singleboxfooter {
+  color: whitesmoke;
+  width: 50%;
+  float: left;
+}
+.fooercoyp {
+  margin-top: 34px;
+  font-size: 18px;
+  font-style: italic;
+}
+.singleboxfooter p {
+  display: inline-block;
+  color: white;
+}
+ul#footelist {
+  float: right;
+  list-style: none;
+}
+ul#footelist li {
+  color: black;
+  float: left;
+  padding: 33px 26px;
+}
+ul#footelist li a {
+  font-weight: 600;
+  color: whitesmoke;
+  font-size: 17px;
+  font-style: italic;
+}
+.subWrapper {
+  overflow: hidden;
+  border-radius: 20px;
+  background: rgb(44, 123, 180);
+}
+.singleSubcribe {
+  padding-left: 27px;
+  padding-top: 30px;
+  width: 368px;
+  float: left;
+  margin-right: 20px;
+  padding-bottom: 34px;
+}
+.singleSubcribe:last-of-type {
+  margin-right: 0px;
+}
+.singleSubcribe h2 {
+  padding-bottom: 15px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: rgb(107, 239, 23);
+  font-size: 38px;
+}
+#input1{ 
+  border: none;
+  border-top-left-radius: 38px;
+  border-bottom-left-radius: 38px;
+  border-top-right-radius: 38px;
+  border-bottom-right-radius: 38px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  width: 100%;
+  padding: 23px 17px; 
+} 
+ul#followme {
+    list-style: none;
+}
+
+ul#followme li {
+    border-radius: 40px;
+    float: left;
+    cursor: pointer;
+    width: 54px;
+    height: 54px;
+    border: 2px solid white;
+    display: grid;
+    place-items: center;
+    margin-right: 29px;
+    transition:0.3s;
+}
+#followme li:hover{
+    background:tomato;
+    color:black;
+}
+#followme li a:hover{
+    background:tomato;
+    color:black;
+}
+#followme li a{
+    color:#5feb08;
+}
+.singleSubcribe p {
+    color: white;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+ #input2 {
+    font-size: 16px;
+    border: none;
+    padding: 25px 36px;
+    position: absolute;
+    top: -1px;
+    right: 0px;
+    background: black;
+    color: white; 
+  border-top-right-radius: 38px;
+  border-bottom-right-radius: 38px;
+}
+.subsobbox{
+    position:relative;
+}
+.foodimage:hover {
+  transform: rotate(360deg);
+}
+.foodimag:hover {
+  transform: rotate(360deg);
+}
+
+.foodima:hover {
+  transform: rotate(360deg);
+} 
